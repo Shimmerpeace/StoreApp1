@@ -91,6 +91,10 @@ header {
   border-bottom: 1px solid #eee;
 }
 
+.cart-item img {
+  width: 50px;
+}
+
 .search-bar {
   display: flex;
   justify-content: flex-end;

@@ -1,4 +1,6 @@
-export function SearchBar(setSearchQuery) {
+import React from 'react';
+
+ const SearchBar = ({setSearchQuery}) => {
   return (
     <div className="search-bar">
       <input
@@ -9,3 +11,5 @@ export function SearchBar(setSearchQuery) {
     </div>
   );
 };
+
+export default SearchBar;
